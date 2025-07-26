@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Enis Aydemir - Portfolyo</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<nav class="navbar">
+  <div class="about-image">
+                <img src="images/pp.jpg" alt="My Profile Photo" width="300">
+            </div>
+  <a href="#hero" class="nav-brand">Hoş Geldiniz!</a>
+   <ul class="nav-links" id="nav-links">
+    <li><a href="#hero">Ana Sayfa</a></li>
+    <li><a href="#about">Hakkımda</a></li>
+    <li><a href="#projects">Projelerim</a></li>
+    <li><a href="#contact">İletişim</a></li>
+  </ul>
+<div class="burger" id="burger">
+  <div class="line1"></div>
+  <div class="line2"></div>
+  <div class="line3"></div>
+    </div>
+  </nav>
+</header>
+
+<section id="hero" class="hero-section">
+  <div class="hero-content">
+    <img src="images/uppground.jpg" alt="Hero Background" class="hero-background">
+    <h1>Enis Eren Aydemir</h1>
+    <p>
+      Merhaba! Unity ve C# kullanarak yazılım geliştirmeler yapıyorum. Temel olarak oyun ve simülasyon projeleri üzerinde çalışıyor, performanslı ve düzenli kod yapıları oluşturmaya odaklanıyorum. Unity'nin görsel gücünü C#'ın esnekliğiyle birleştirerek interaktif uygulamalar geliştiriyorum.
+    </p>
+    <a href="#contact" class="btn primary-btn">Benimle İletişime Geç</a>
+  </div>
+</section>
+
+<section id="about" class="about-section">
+    <div class="container">
+        <h2>Hakkımda</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Eğitimim</h3>
+                <p>Akdeniz Üniversitesi, Uygulamalı Bilimler Fakültesi, Yönetim Bilişim Sistemleri, 4. Sınıf Öğrencisi</p>
+                <br>
+                <h3>İlgi Alanlarım</h3>
+                <p>Oyun Geliştirme, Simülasyon Projeleri, C# Programlama, Unity 3D</p>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="projects-section">
+  <div class=container>
+    <h2>Projelerim</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="images/project1.png" alt="Ortalamatik">
+        <h3>Ortalamatik</h3>
+        <p>Kullanıcıdan alınan vize ve final notlarının ortalamasını alan bir uygulama.</p>
+        <a href="https://github.com/enisaydemir/Midterm-and-final-grade-average-calculation" target="_blank" class="github-link"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+      <div class="project-card">
+        <img src="images/project2.png" alt="OtelYonetimSistemi API">
+        <h3>Otel Yönetim Sistemi API</h3>
+        <p>Bir otel yönetim sistemi için RESTful API geliştirme projesi.</p>
+        <a href="https://github.com/enisaydemir/API-Controller" target="_blank" class="github-link"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact-section">
+  <div class="container">
+    <h2>İletişim</h2>
+    <p>Benimle iletişime geçmek için aşağıdaki linkleri kullanabilirsiniz!</p>
+    <div class="contact-links">
+      <a href="mailto:eniserenaydemir@hotmail.com" class="contact-icon"><i class="fas fa-envelope"></i> eniserenaydemir@hotmail.com</a>
+      <a href="https://www.linkedin.com/in/eniserenaydemir/" target="_blank" class="contact-icon"><i class="fab fa-linkedin"></i> Linkedin/eniserenaydemir</a>
+      <a href="https://github.com/enisaydemir" target="_blank" class="contact-icon"><i class="fab fa-github"></i> GitHub/enisaydemir</a>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>&copy; <span id="current-year"></span> Enis Eren Aydemir</p>
+  </div>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>

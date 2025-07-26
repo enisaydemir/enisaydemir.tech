@@ -1,2 +1,0 @@
-# enisaydemir.tech
-My Website
